@@ -1,11 +1,7 @@
 import React from 'react';
-import './style.css'; // Asegúrate de importar el archivo CSS
+import './style.css';
 
 function UserList({ users }) {
-    if (!users || users.length === 0) {
-        return <p>Cargando usuarios...</p>; 
-    }
-
     return (
         <div className="table-container">
             <table className="user-table">

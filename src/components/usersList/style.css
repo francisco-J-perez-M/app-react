@@ -1,6 +1,5 @@
-/* Fondo general con tonos fríos */
 body {
-    background: linear-gradient(to bottom, #0a192f, #162447); /* Degradado azul oscuro */
+    background: linear-gradient(to bottom, #0a192f, #162447);
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -11,17 +10,16 @@ body {
     min-height: 100vh;
 }
 
-/* Contenedor de la tabla */
 .table-container {
     margin: 30px auto;
     padding: 30px;
     max-width: 95%;
-    width: 80vw; /* Hace que la tabla ocupe más espacio */
+    width: 80vw; 
     background: #1b263b;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     border: 2px solid #112240;
-    overflow-x: auto; /* Permite desplazamiento si es necesario */
+    overflow-x: auto;
 }
 
 /* Estilos de la tabla */
@@ -52,7 +50,6 @@ body {
     color: #d1d1d1;
 }
 
-/* Alternar colores de filas */
 .user-table tbody tr:nth-child(even) {
     background-color: #1e3a5f;
 }
